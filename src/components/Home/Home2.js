@@ -22,7 +22,7 @@ function Home2() {
               I fell in love with DevOps and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in some of the technologies like
               <i>
                 <b className="purple"> Python, Docker & AWS. </b>
               </i>
@@ -30,23 +30,23 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Cloud Technologies </b> and
-                also in areas related to{" "}
+                <b className="purple">Automation Scripts </b>,
+                also exploring AWS and{" "}
                 <b className="purple">
                   DevSecOps.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for automating small tasks
-              with <b className="purple">Bash</b> and
+              Whenever possible, I brainstorm on automating small tasks
+              using <b className="purple">Bash</b> and
               <i>
                 <b className="purple">
                   {" "}
                   Python
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; . Also making a CI/CD
               <i>
                 <b className="purple"> Using AWS Services like AWS Lambda</b>
               </i>
@@ -60,7 +60,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>Find Me Here</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>

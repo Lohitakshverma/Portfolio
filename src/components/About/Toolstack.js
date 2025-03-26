@@ -1,30 +1,43 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
-} from "react-icons/si";
+import { SiJenkins, SiDocker, SiKubernetes, SiAnsible, SiTerraform, SiPrometheus, SiGrafana, SiGithubactions} from "react-icons/si";
+import { FaAws, FaLinux, FaGitlab } from "react-icons/fa";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <FaLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiJenkins />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <SiKubernetes />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiAnsible />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTerraform />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPrometheus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGrafana />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithubactions />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaGitlab />
       </Col>
     </Row>
   );
